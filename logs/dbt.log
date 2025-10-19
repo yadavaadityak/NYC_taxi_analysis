@@ -1,0 +1,30 @@
+[0m16:36:08.472855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a36540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074bfe00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074bfad0>]}
+
+
+============================== 16:36:08.475175 | 03792dd5-e682-4520-8438-d53c4b42eede ==============================
+[0m16:36:08.475175 [info ] [MainThread]: Running with dbt=1.10.13
+[0m16:36:08.475418 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'profiles_dir': '/Users/aadityakumaryadav/.dbt', 'use_colors': 'True', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'partial_parse': 'True', 'version_check': 'True', 'target_path': 'None', 'introspect': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init NYC', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'quiet': 'False', 'log_path': 'logs', 'debug': 'False', 'no_print': 'None', 'fail_fast': 'False', 'write_json': 'True', 'log_format': 'default', 'printer_width': '80'}
+[0m16:36:08.482177 [debug] [MainThread]: Starter project path: /opt/anaconda3/envs/etlpipeline/lib/python3.12/site-packages/dbt/include/starter_project
+[0m16:36:08.484732 [info ] [MainThread]: 
+Your new dbt project "NYC" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:36:08.484851 [info ] [MainThread]: Setting up your profile.
+[0m16:36:17.228544 [info ] [MainThread]: Profile NYC written to /Users/aadityakumaryadav/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m16:36:17.229985 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 8.781695, "process_in_blocks": "0", "process_kernel_time": 0.108298, "process_mem_max_rss": "145752064", "process_out_blocks": "0", "process_user_time": 0.904809}
+[0m16:36:17.230233 [debug] [MainThread]: Command `dbt init` succeeded at 16:36:17.230179 after 8.78 seconds
+[0m16:36:17.230401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061cdfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a9c890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074eab40>]}
+[0m16:36:17.230577 [debug] [MainThread]: Flushing usage events
+[0m16:36:17.655599 [debug] [MainThread]: An error was encountered while trying to flush usage events
